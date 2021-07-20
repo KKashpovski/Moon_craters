@@ -16,7 +16,7 @@ def calculate(matrix: list) -> int:
 
 
 def main() -> None:
-    """Многомерный прямоугольный массив."""
+    """Многомерный массив."""
     with open("my_input.txt", "r") as fd:
         moon_data = fd.read()
         arr_a = []
