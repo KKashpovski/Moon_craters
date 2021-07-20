@@ -25,7 +25,7 @@ def main() -> None:
             for e in line.split(" "):
                 arr_tmp.append(int(e))
             arr_a.append(arr_tmp)
-        print("Исходные данные:", arr_a)
+        print("Исходные данные о кратерах:", arr_a)
     calculate(arr_a)
 
 
